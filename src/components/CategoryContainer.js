@@ -23,7 +23,7 @@ background-color: white;
 border-radius: 25px;
 `
 
-export default function CategoryContainer(props) {
+export default function CategoryContainer() {
     const { parts } = useContext(PartContext)
     const { id } = useParams()
     const match = useRouteMatch()
